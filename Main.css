@@ -1,0 +1,231 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color: #000000;
+}
+
+#wrapper {
+	width:900px;
+	margin: auto;
+	margin-top: 60px;
+	background-color: white;
+	min-height: 560px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+header {
+	background-image: url(media/bb_header.png);
+	font-style: normal;
+	height: 100px;
+	width: 900px;
+	text-align: center;
+	margin-top: 1em;
+	font-size: 36px;
+	font-family: Old English Text MT;
+	text-indent: -9999px;  
+}
+footer {
+	color: white;
+	font-family: 'Fenix', serif;
+	position:fixed;
+	bottom:0;
+	width: 100%;
+	text-align: center;
+	height: 20px;
+	vertical-align: baseline;
+	background-color: #880000 ;
+}
+.side_image {
+	height: 460px;
+	width: 124px;
+}
+
+#left_image {
+	background-image: url(media/leftbar.png);
+	float: left;
+}
+
+#right_image {
+	background-image: url(media/rightbar.png);
+	float: right;
+}
+article {
+	float: left;
+	padding: 20px;
+	max-width: 600px;
+	font-family: 'Fenix', serif;
+	color: white;
+	height: 420px;
+}
+nav {
+	font-size: 15px;
+	font-family: 'Fenix', serif;
+	background-color: white;
+	width:652px;
+	margin: auto;
+	height: 40px;
+}
+
+li {
+	display: inline;
+	margin: auto;
+}
+
+nav a {
+	margin-top: 10px;
+	color: black;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 0em;
+	width: 15%;
+}
+
+nav li+li:before {
+	content: "|";
+	color: red;
+	font-weight: bold;
+}
+
+#middle_content {
+	background-color: red;
+	float: left;
+	width: 652px;
+	height: 460px;
+	background-image: -linear-gradient(bottom, rgb(143,0,0) 13%, rgb(237,0,0) 84%);
+	background-image: -o-linear-gradient(bottom, rgb(143,0,0) 13%, rgb(237,0,0) 84%);
+	background-image: -moz-linear-gradient(bottom, rgb(143,0,0) 13%, rgb(237,0,0) 84%);
+	background-image: -webkit-linear-gradient(bottom, rgb(143,0,0) 13%, rgb(237,0,0) 84%);
+	background-image: -ms-linear-gradient(bottom, rgb(143,0,0) 13%, rgb(237,0,0) 84%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.13, rgb(143,0,0)),
+	color-stop(0.84, rgb(237,0,0))
+);
+}
+
+p {
+	margin-top: 10px;
+}
+
+nav li+li:before {
+	content: "|";
+	color: red;
+	font-weight: bold;
+}
+/* Picture at the plot page */
+#residents {
+	float: right;
+	border-radius: 10px;
+	margin: 5px;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+}
+
+.linkbutton {
+	margin: 30px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px;
+	color: black;
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	border-width: 5px;
+}
+
+#animelinkbutton {
+	float: right;
+	margin-right: 30px;
+}
+
+#animelinkbutton {
+	float: left;
+	margin: 30px;
+}
+
+#author {
+	float: right;
+	margin-left: 20px;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	border-radius: 10px;
+}
+
+#barimage {
+	background-color: black;
+	margin-top: 10px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+}
+
+/* Characters page make up */
+
+#characters {
+	width: 480px;
+	height: 300px;
+	background-color: black;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.c_item {
+	float: left;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	width: 116px;
+	height: 296px;
+	background-color: black;
+	color: white;
+	font-family: 'Fenix', serif;
+	text-align: center;
+}
+
+.c_text {
+	margin: 5px;
+	text-align: left;
+}
+
+#mangasamplespic {
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	background-color: black;
+	float: right;
+	border-radius: 10px;
+}
+
+#mangasamples {
+	float: right;
+	margin: 10px;
+}
+
+footer p {
+	margin: 0;
+}
+
+article p {
+	font-size: 12px;
+}
+
+cite {
+	font-size: 12px;
+	display: inline;
+}
+
+figure.c_picture {
+	display: block;
+	width: 116px;
+}
